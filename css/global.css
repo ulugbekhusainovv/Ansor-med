@@ -1,0 +1,191 @@
+/* open-sans-regular - latin_cyrillic */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/open-sans-v34-latin_cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/open-sans-v34-latin_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* open-sans-600 - latin_cyrillic */
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+         url('../fonts/open-sans-v34-latin_cyrillic-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/open-sans-v34-latin_cyrillic-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* open-sans-700 - latin_cyrillic */
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/open-sans-v34-latin_cyrillic-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/open-sans-v34-latin_cyrillic-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  @font-face {
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/OpenSans_Condensed-Bold.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/OpenSans_Condensed-Bold.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  *, *::after, *
+  ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+  html {
+    font-size: 62.5%;
+    height: 100%;
+  }
+  ul ,ol {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  img {
+    display: flex;
+  }
+  
+  body {
+    height: 100%;
+    background-color: #ffffff;
+    font-family: "Open Sans" , "Arial", sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #444;
+    display: flex;
+    flex-direction: column;
+  }
+  .container {
+    width: 100%;
+    max-width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  } 
+  .btn {
+    padding: 1.2rem 2.4rem;
+    background-repeat: 8px;
+    color: #ffffff;
+    font-weight: 700;
+    border-radius: 8px;
+    font-family: 'Open Sans Condensed', Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: 2px solid transparent;
+    transition: 0.2s ease;
+}
+.active {
+    color: #de2e54 !important; 
+}
+
+  /* Header  */
+
+
+.header {
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
+}
+.header-container {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+
+}
+.logo-link:hover .logo-text {
+    color: #de2e54;
+}
+.logo-link:active {
+    opacity: 0.6;
+}
+.logo-img {
+    margin-right: 16px;
+
+}
+.logo-text {
+    color: #222;
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 1.375;
+}
+.sitenav {
+}
+.sitenav-list {
+    display: flex;
+}
+.sitenav-item:not(:last-child) {
+    margin-right: 3.2rem;
+}
+.sitenav-link {
+    color: #222222;
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.sitenav-link:hover {
+    color: #de2e54;
+}
+.sitenav-link:active {
+    opacity: 0.6;
+}
+.header-btn {
+    background-color: #de2e54;
+}
+.header-btn:hover {
+ background-color: transparent;
+ color: #de2e54;
+ border-color: #de2e54;
+}
+.header-btn:active {
+    background-color: #de2e54;
+    opacity: 0.6;
+    color: #fff;
+}
+/* <--Header */
+
+/* Main-> */
+
+.main {
+    flex-grow: 1;
+}
+
+/* <-Main */
+
+/* Footer-> */
+.footer {
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
+    background-color: #222222;
+}
+.footer-logo-text {
+    color: #fff;
+}
+.logo-link:active  .footer-logo-text{
+    color: #fff;
+}
+.footer-link {
+    color: #fff;
+}
+.footer-link:active {
+    opacity: 0.6;
+    color: #fff;
+}
+/* <-Footer */

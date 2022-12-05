@@ -1,0 +1,159 @@
+/* HERO */
+.hero {
+  background-color: #0eb4c1;
+  color: #fff;
+}
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-info {
+  width: 500px;
+}
+.hero-title {
+  font-family: "Open Sans Condensed", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 3.6rem;
+  margin-bottom: 1.6rem;
+  line-height: 1.2;
+}
+.hero-description-wrapper {
+  width: 440px;
+}
+.hero-description {
+  font-size: 1.8rem;
+  margin-bottom: 3.6rem;
+}
+.hero-btn {
+  background-color: #de2e54;
+}
+
+.hero-btn:hover {
+  background-color: rgba(222, 46, 84, 0.8);
+}
+.hero-btn:active {
+  background-color: rgba(222, 46, 84, 0.6);
+}
+
+.hero-image {
+  margin-top: 2.9rem;
+}
+/* /HERO */
+
+/* XIZMATLAR */
+.xizmatlar {
+  background-color: #ffffff;
+}
+.xizmatlar-container {
+  width: 100%;
+  max: width 864px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 13.2rem;
+}
+.xizmatlar-title {
+  font-family: "Open Sans Condensed", Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  margin-bottom: 5.6rem;
+  font-size: 3.6rem;
+  line-height: 1.2rem;
+  color: #000;
+  padding-top: 12rem;
+}
+.xizmatlar-list-wrapper {
+  width: 864px;
+}
+.xizmatlar-list {
+  padding-top: 7.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 5.5rem;
+  margin-bottom: 5.5rem;
+}
+.xizmatlar-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 6.4rem;
+}
+.xizmatlar-image {
+  font-weight: 700;
+  border-radius: 24px;
+  width: 200px;
+  height: 200px;
+}
+.xizmatlar-image:not(:last-child) {
+  margin-bottom: 2.4rem;
+}
+
+.xizmatlar-item-title {
+  font-family: "Open Sans Condensed", Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  color: #222;
+}
+.xizmatlar-item-description {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #444;
+  padding-top: 2.4rem;
+}
+.xizmatlar-btn {
+  background-color: #de2e54;
+}
+.xizmatlar-btn:hover {
+  background-color: transparent;
+  color: #de2e54;
+  border-color: #de2e54;
+}
+.xizmatlar-btn:active {
+  background-color: #de2e54;
+  opacity: 0.6;
+  color: #fff;
+}
+.btn {
+  margin-bottom: 13.2rem;
+}
+/* /XIZMATLAR */
+/* RO'YXAT */
+.royxat {
+  background-color: #0eb4c1;
+  padding: 6.4rem 0 7.6rem 0;
+}
+.royxat-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.royxat-title {
+  font-family: "Open Sans Condensed", Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  font-size: 3.6rem;
+  line-height: 1.2rem;
+  color: #ffffff;
+  margin-bottom: 5.2rem;
+}
+.royxat-button {
+  display: flex;
+  colomn-gap: 4rem;
+}
+.btn {
+  border: 2px solid #fff;
+  margin: 25px;
+}
+
+.list-btn:hover {
+  background-color: #de2e54;
+  color: #fff;
+}
+.list-btn:active {
+  opacity: 0.6;
+}
+/* /RO'YXAT */
